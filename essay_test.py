@@ -57,6 +57,7 @@ with st.sidebar:
         st.success("OpenAI API key is provided.")
     else:
         openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
+        openai.api_key = openai_api_key
 
 # Main Application
 st.title("Assess Your English Skills Through Essay Writing")
@@ -135,7 +136,7 @@ if uploaded_file:
             """
 
             # Connect to ChatGPT
-            openai.api_key = openai_api_key
+            
 
             # Generate Responses
             response1 = openai.Completion.create(
