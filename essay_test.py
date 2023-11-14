@@ -115,6 +115,37 @@ if uploaded_file:
                 Based on this essay, assess the English language proficiency level. 
                 Please use the CEFR scale to rate the essay. 
                 Consider factors such as grammar, vocabulary, sentence structure, and overall fluency.
+                This you can use as reference.
+
+                A1:
+                Limited vocabulary and basic sentence structures.
+                Simple phrases and sentences linked to familiar topics.
+                Essays at this level may include basic introductions to topics, but lack depth and complexity.
+                
+                A2:
+                Slightly broader range of vocabulary and sentence structures.
+                Ability to describe in simple terms aspects of their background and immediate environment.
+                Essays show limited ability to connect ideas and use basic cohesive devices.
+                
+                B1:
+                Effective command of the language despite some inaccuracies and misunderstandings.
+                Can produce simple connected text on familiar topics.
+                Essays at this level demonstrate a reasonable degree of fluency and coherence, linking main points and ideas.
+                
+                B2:
+                Clear and detailed writing on a wide range of subjects.
+                Skillful use of language to express viewpoints and develop arguments.
+                Essays are well-structured and use a variety of cohesive devices and vocabulary effectively.
+                
+                C1:
+                Fluent and spontaneous use of language with a high degree of precision.
+                Ability to express ideas fluently and spontaneously without much obvious searching for expressions.
+                Essays show sophisticated control of language, structure, and argumentation.
+                
+                C2:
+                Ability to express oneself spontaneously, very fluently, and precisely.
+                Can differentiate finer shades of meaning even in more complex situations.
+                Essays at this level display exceptional control of language, structure, and argument, often resembling a native speaker's proficiency.
                 
                 Output only rate in form:
                 <CEFR scale rate> 
