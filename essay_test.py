@@ -147,6 +147,7 @@ if uploaded_file:
                 Can differentiate finer shades of meaning even in more complex situations.
                 Essays at this level display exceptional control of language, structure, and argument, often resembling a native speaker's proficiency.
                 
+                And plese dont be afraid to give C1 or C2. That is really important.
                 Output only rate in form:
                 <CEFR scale rate> 
             """
